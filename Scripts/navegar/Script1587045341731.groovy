@@ -17,7 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.delay(0)
+
 WebUI.navigateToUrl('youtube.com')
 
 WebUI.waitForPageLoad(0)
+
+WebUI.closeBrowser()
 
